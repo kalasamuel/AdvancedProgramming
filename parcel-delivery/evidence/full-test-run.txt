@@ -1,0 +1,32 @@
+### Full run of T1-T8 (final code)
+
+?
+?? JUnit Platform Suite ?
+?? JUnit Jupiter ?
+?  ?? PickupDeliveryServiceTest ?
+?  ?  ?? T7 - Main use case: assign (UC1) then pick up (UC2); event handled, delivery PIC... ?
+?  ?  ?? T6 - BR6 (rejection): pickup with a fake DeliveryId throws NotFoundException ?
+?  ?? CourierWorkloadHandlerTest ?
+?  ?  ?? T8 - Aggregate B rejects follow-up: BUSY courier throws DomainException, final s... ?
+?  ?? DeliveryAssignmentServiceTest ?
+?  ?  ?? T4 - BR4: courier in a different area (or BUSY) => returns false and delivery st... ?
+?  ?? DeliveryTest ?
+?  ?  ?? T2 - BR2 (rejection): illegal state changes throw DomainException and leave the ... ?
+?  ?  ?? T3 - BR3 (invariant, rejection + boundary): identical pickup/destination is reje... ?
+?  ?  ?? T5 - BR5: markPickedUp() records a ParcelPickedUpEvent(deliveryId, courierId) ?
+?  ?? DeliveryAddressTest ?
+?     ?? T1 - BR1 (boundary + rejection): empty/blank area or city is rejected, 1-charact... ?
+?? JUnit Vintage ?
+Test run finished after 275 ms
+[         8 containers found      ]
+[         0 containers skipped    ]
+[         8 containers started    ]
+[         0 containers aborted    ]
+[         8 containers successful ]
+[         0 containers failed     ]
+[         8 tests found           ]
+[         0 tests skipped         ]
+[         8 tests started         ]
+[         0 tests aborted         ]
+[         8 tests successful      ]
+[         0 tests failed          ]

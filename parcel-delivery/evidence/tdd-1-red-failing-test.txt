@@ -1,0 +1,34 @@
+### TDD STEP 1 - RED: T1 written first, DeliveryAddress has NO validation yet
+### Command: run DeliveryAddressTest
+
+?
+?? JUnit Platform Suite ?
+?? JUnit Jupiter ?
+?  ?? DeliveryAddressTest ?
+?     ?? T1 - BR1 (boundary + rejection): empty/blank area or city is rejected, 1-charact... ? Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+?? JUnit Vintage ?
+Failures (1):
+  JUnit Jupiter:DeliveryAddressTest:T1 - BR1 (boundary + rejection): empty/blank area or city is rejected, 1-character area is accepted
+    MethodSource [className = 'parcel.DeliveryAddressTest', methodName = 'T1_BR1_emptyAreaRejectsCreation', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       parcel.DeliveryAddressTest.T1_BR1_emptyAreaRejectsCreation(DeliveryAddressTest.java:15)
+       java.base/java.lang.reflect.Method.invoke(Method.java:580)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+       java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Test run finished after 184 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         1 tests found           ]
+[         0 tests skipped         ]
+[         1 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         1 tests failed          ]
