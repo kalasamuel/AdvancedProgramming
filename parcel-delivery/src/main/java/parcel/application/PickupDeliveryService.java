@@ -1,7 +1,8 @@
 package parcel.application;
 
-import parcel.domain.Delivery;
-import parcel.domain.DomainEvent;
+import parcel.domain.aggregates.Delivery;
+import parcel.domain.events.DomainEvent;
+import parcel.domain.repositories.IDeliveryRepository;
 
 /**
  * USE CASE 2: Pick Up Delivery (slides 9, 10, 13).

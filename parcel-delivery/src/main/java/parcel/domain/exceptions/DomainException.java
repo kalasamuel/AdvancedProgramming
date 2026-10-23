@@ -1,4 +1,4 @@
-package parcel.domain;
+package parcel.domain.exceptions;
 
 /** Thrown when a business rule (invariant) is broken, e.g. BR2, BR3. */
 public class DomainException extends RuntimeException {

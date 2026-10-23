@@ -1,8 +1,9 @@
-package parcel.domain;
+package parcel.domain.entities;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import parcel.domain.events.DomainEvent;
 
 /**
  * Layer Supertype (slide 14): deliberately minimal.

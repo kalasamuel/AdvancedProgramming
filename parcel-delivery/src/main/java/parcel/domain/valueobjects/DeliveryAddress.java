@@ -1,4 +1,4 @@
-package parcel.domain;
+package parcel.domain.valueobjects;
 
 /**
  * VALUE OBJECT (slide 4). No identity: two addresses with the same values are equal.

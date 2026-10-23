@@ -4,7 +4,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import parcel.domain.*;
+import parcel.domain.aggregates.Courier;
+import parcel.domain.aggregates.Delivery;
+import parcel.domain.enumerators.DeliveryStatus;
+import parcel.domain.services.DeliveryAssignmentService;
+import parcel.domain.valueobjects.DeliveryAddress;
 
 class DeliveryAssignmentServiceTest {
 

@@ -1,6 +1,6 @@
 package parcel.application;
 
-import parcel.domain.DomainEvent;
+import parcel.domain.events.DomainEvent;
 
 /** The Application layer only knows this interface; the implementation lives in Infrastructure. */
 public interface EventDispatcher {

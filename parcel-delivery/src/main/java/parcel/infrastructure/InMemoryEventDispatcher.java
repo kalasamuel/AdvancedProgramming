@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 import parcel.application.EventDispatcher;
-import parcel.domain.DomainEvent;
+import parcel.domain.events.DomainEvent;
 
 /** Simple in-process dispatcher: handlers register for an event type and get called on dispatch. */
 public class InMemoryEventDispatcher implements EventDispatcher {

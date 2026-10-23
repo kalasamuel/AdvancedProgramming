@@ -1,6 +1,11 @@
-package parcel.domain;
+package parcel.domain.aggregates;
 
 import java.util.Objects;
+import parcel.domain.enumerators.DeliveryStatus;
+import parcel.domain.entities.Entity;
+import parcel.domain.events.ParcelPickedUpEvent;
+import parcel.domain.exceptions.DomainException;
+import parcel.domain.valueobjects.DeliveryAddress;
 
 /**
  * AGGREGATE A - ROOT (slides 4, 5). An Entity: identified by its deliveryId.
