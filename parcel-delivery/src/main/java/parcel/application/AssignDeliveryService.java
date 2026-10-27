@@ -1,8 +1,10 @@
 package parcel.application;
 
-import parcel.domain.Courier;
-import parcel.domain.Delivery;
-import parcel.domain.DeliveryAssignmentService;
+import parcel.domain.aggregates.Courier;
+import parcel.domain.aggregates.Delivery;
+import parcel.domain.repositories.ICourierRepository;
+import parcel.domain.repositories.IDeliveryRepository;
+import parcel.domain.services.DeliveryAssignmentService;
 
 /**
  * USE CASE 1: Assign Delivery to a Courier.

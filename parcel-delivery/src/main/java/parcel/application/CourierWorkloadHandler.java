@@ -1,7 +1,8 @@
 package parcel.application;
 
-import parcel.domain.Courier;
-import parcel.domain.ParcelPickedUpEvent;
+import parcel.domain.aggregates.Courier;
+import parcel.domain.events.ParcelPickedUpEvent;
+import parcel.domain.repositories.ICourierRepository;
 
 /** BR5 follow-up: when a parcel is picked up, update Aggregate B (Courier). */
 public class CourierWorkloadHandler {

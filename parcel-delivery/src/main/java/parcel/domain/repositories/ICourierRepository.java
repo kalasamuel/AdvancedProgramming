@@ -1,6 +1,6 @@
-package parcel.application;
+package parcel.domain.repositories;
 
-import parcel.domain.Courier;
+import parcel.domain.aggregates.Courier;
 
 import java.util.Optional;
 

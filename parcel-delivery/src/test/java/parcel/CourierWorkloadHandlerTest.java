@@ -5,7 +5,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import parcel.application.CourierWorkloadHandler;
-import parcel.domain.*;
+import parcel.domain.aggregates.Courier;
+import parcel.domain.enumerators.CourierStatus;
+import parcel.domain.events.ParcelPickedUpEvent;
+import parcel.domain.exceptions.DomainException;
 import parcel.infrastructure.InMemoryCourierRepository;
 
 class CourierWorkloadHandlerTest {

@@ -1,7 +1,12 @@
 package parcel.interfaces;
 
 import parcel.application.*;
-import parcel.domain.*;
+import parcel.domain.aggregates.Courier;
+import parcel.domain.aggregates.Delivery;
+import parcel.domain.events.ParcelPickedUpEvent;
+import parcel.domain.exceptions.DomainException;
+import parcel.domain.services.DeliveryAssignmentService;
+import parcel.domain.valueobjects.DeliveryAddress;
 import parcel.infrastructure.*;
 
 /**

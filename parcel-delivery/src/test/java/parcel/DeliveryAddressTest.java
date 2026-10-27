@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import parcel.domain.DeliveryAddress;
+import parcel.domain.valueobjects.DeliveryAddress;
 
 class DeliveryAddressTest {
 

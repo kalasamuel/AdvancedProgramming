@@ -1,6 +1,6 @@
-package parcel.application;
+package parcel.domain.repositories;
 
-import parcel.domain.Delivery;
+import parcel.domain.aggregates.Delivery;
 
 import java.util.Optional;
 

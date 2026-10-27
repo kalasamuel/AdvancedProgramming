@@ -6,7 +6,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import parcel.application.*;
-import parcel.domain.*;
+import parcel.domain.aggregates.Courier;
+import parcel.domain.aggregates.Delivery;
+import parcel.domain.enumerators.CourierStatus;
+import parcel.domain.enumerators.DeliveryStatus;
+import parcel.domain.events.ParcelPickedUpEvent;
+import parcel.domain.services.DeliveryAssignmentService;
+import parcel.domain.valueobjects.DeliveryAddress;
 import parcel.infrastructure.*;
 
 /** Drives both use cases from the outside, the way the Interface layer would. */

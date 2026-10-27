@@ -3,8 +3,8 @@ package parcel.infrastructure;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-import parcel.domain.Courier;
-import parcel.application.ICourierRepository;
+import parcel.domain.aggregates.Courier;
+import parcel.domain.repositories.ICourierRepository;
 
 public class InMemoryCourierRepository implements ICourierRepository {
     private final Map<String, Courier> store = new HashMap<>();

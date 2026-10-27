@@ -1,6 +1,10 @@
-/** a place */
 
-package parcel.domain;
+package parcel.domain.aggregates;
+
+import parcel.domain.enumerators.CourierStatus;
+import parcel.domain.entities.Entity;
+import parcel.domain.exceptions.DomainException;
+
 
 /**
  * AGGREGATE B - ROOT (slide 5). Invariant: a BUSY courier cannot accept another active delivery.

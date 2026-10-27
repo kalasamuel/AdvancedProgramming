@@ -1,4 +1,8 @@
-package parcel.domain;
+package parcel.domain.services;
+
+import parcel.domain.aggregates.Courier;
+import parcel.domain.aggregates.Delivery;
+import parcel.domain.enumerators.CourierStatus;
 
 /**
  * DOMAIN SERVICE (slide 6) for BR4. The rule needs data from BOTH Delivery and Courier,
