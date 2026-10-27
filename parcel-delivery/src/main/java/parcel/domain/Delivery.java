@@ -42,6 +42,7 @@ public class Delivery extends Entity {
         this.status = DeliveryStatus.ASSIGNED;
     }
 
+    /**a place */
     /** BR2 (state rule, part 2): ASSIGNED -> PICKED_UP only. Also raises the BR5 event. */
     public void markPickedUp() {
         if (status != DeliveryStatus.ASSIGNED) {

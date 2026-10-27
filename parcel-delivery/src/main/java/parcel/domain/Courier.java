@@ -1,3 +1,5 @@
+/** a place */
+
 package parcel.domain;
 
 /**
